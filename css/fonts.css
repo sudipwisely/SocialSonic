@@ -1,0 +1,49 @@
+@font-face {
+	font-family:'Myriad Pro Regular';
+	src:url('../fonts/MyriadPro-Regular.eot');
+	src:url('../fonts/MyriadPro-Regular.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/MyriadPro-Regular.woff') format("woff"),
+		url('../fonts/MyriadPro-Regular.ttf') format("truetype"),
+		url('../fonts/MyriadPro-Regular.svg#myriadpro_regular') format("svg");
+	font-weight:normal;
+}@font-face {
+	font-family:'Myriad Pro Light';
+	src:url('../fonts/MyriadPro-Light.eot');
+	src:url('../fonts/MyriadPro-Light.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/MyriadPro-Light.woff') format("woff"),
+		url('../fonts/MyriadPro-Light.ttf') format("truetype"),
+		url('../fonts/MyriadPro-Light.svg#myriadpro_light') format("svg");
+	font-weight:normal;
+}@font-face {
+	font-family:'Myriad Pro Bold';
+	src:url('../fonts/MyriadPro-Bold.eot');
+	src:url('../fonts/MyriadPro-Bold.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/MyriadPro-Bold.woff') format("woff"),
+		url('../fonts/MyriadPro-Bold.ttf') format("truetype"),
+		url('../fonts/MyriadPro-Bold.svg#myriadpro_light') format("svg");
+	font-weight:normal;
+}@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('../fonts/BebasNeueBold.ttf')
+}@font-face {
+    font-family: 'BebasNeue Regular';
+    src: url('../fonts/BebasNeueRegular.ttf')
+}@font-face {
+    font-family: 'BebasNeue Thin';
+    src: url('../fonts/BebasNeueThin.ttf')
+}@font-face {
+    font-family: 'BebasNeue Light';
+    src: url('../fonts/BebasNeueLight.ttf')
+}@font-face {
+    font-family: 'BebasNeue Book';
+    src: url('../fonts/BebasNeueBook.ttf')
+}@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../fonts/NexaBold.ttf')
+}@font-face {
+    font-family: 'Nexa Light';
+    src: url('../fonts/NexaLight.ttf')
+}@font-face {
+    font-family: EyeCatching;
+    src: url('../fonts/eye-catching-webfont.ttf')
+}

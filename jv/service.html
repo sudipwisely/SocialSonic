@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]> <html lang="en" class="ie6">    <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7">    <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8">    <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9">    <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Service || Kirion</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Favicon
+		============================================ -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        
+        <!-- Fonts  -->
+
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+ 		<!-- CSS  -->
+		
+		<!-- Bootstrap CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- REVOLUTION BANNER CSS SETTINGS -->
+        <link rel="stylesheet" href="rs-plugin/css/settings.css" media="screen" />
+
+		<!-- owl.carousel CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        
+		<!-- owl.theme CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/owl.theme.css">
+           	
+		<!-- owl.transitions CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/owl.transitions.css">
+
+        <!-- jquery.sidr.dark CSS
+        ============================================ -->      
+        <link rel="stylesheet" href="css/jquery.sidr.dark.css">
+       
+		<!-- font-awesome.min CSS
+		============================================ -->      
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+        <!-- linea CSS
+        ============================================ -->      
+        <link rel="stylesheet" href="css/linea.css">
+        
+        <!-- jquery.fancybox CSS
+        ============================================ -->         
+        <link rel="stylesheet" href="css/fancb/jquery.fancybox.css">
+
+ 		<!-- animate CSS
+		============================================ -->         
+        <link rel="stylesheet" href="css/animate.css">
+        
+ 		<!-- normalize CSS
+		============================================ -->        
+        <link rel="stylesheet" href="css/normalize.css">
+   
+        <!-- main CSS
+		============================================ -->          
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- style CSS
+		============================================ -->          
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- responsive CSS
+		============================================ -->          
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body class="pages">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Start header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-5 col-sm-5 col-md-5">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 hidden-xs hidden-sm">
+                        <div class="header-search">
+                            <form action="#">
+                                <span class="search-button"><i class="fa fa-search"></i></span>
+                                <input type="text" placeholder="search...">
+                            </form>                     
+                        </div>
+                        <div class="cart">
+                            <a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                            <div class="header-ad-to-cart">
+                                <div class="cart-head">
+                                    <div class="name"><h5>Name</h5></div>
+                                    <div class="qty"><h5>Qty</h5></div>
+                                    <div class="price"><h5>Price</h5></div>
+                                </div>
+                                <div class="cart-body">
+                                    <div class="pro-name">
+                                        <div class="name">
+                                            <span><a href="#">Women Cloth 1: Light <br> Green Large <br>  WC-TS-004LG</a></span>
+                                        </div>
+                                        <div class="qty"><input type="text"></div>
+                                        <div class="price"><h5>$100.00 <i class="fa fa-times-circle"></i></h5></div>
+                                    </div>
+                                    <div class="pro-name">
+                                        <div class="name">
+                                            <span><a href="#">Women Cloth 1: Light <br> Green Large <br>  WC-TS-004LG</a></span>
+                                        </div>
+                                        <div class="qty"><input type="text"></div>
+                                        <div class="price"><h5>$120.00 <i class="fa fa-times-circle"></i></h5></div>
+                                    </div>
+                                </div>
+                                <div class="cart-footer">
+                                    <div class="name">
+                                        <a href="#">Proceed to checkout</a>
+                                    </div>
+                                    <div class="qty"><h5>Total</h5></div>
+                                    <div class="price"><h5>$220.00</h5></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-and-search pull-right">
+                        <div class="col-xs-1 col-sm-1 col-md-1">
+                            <div class="side-menu-icon">
+                                <ul>
+                                    <li class="sb-open-left"><a id="right-menu" href="#right-menu"><i class="fa fa-bars"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+        <!-- Start sidr menu -->
+        <div id="sidr-right" class="sidr right" style="display: none;">
+            <div class="side-search">
+                <div class="header-search">
+                    <form action="#">
+                        <span class="search-button"><i class="fa fa-search"></i></span>
+                        <input type="text" placeholder="search...">
+                    </form>                     
+                </div>
+            </div>
+            <div class="side-menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Homepage</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="index-2.html">Homepage 2<span>Modern Corporate</span></a></li>
+                                <li><a href="index-3.html">Homepage 3<span>Restaurant Website</span></a></li>
+                                <li><a href="index-4.html">Homepage 4<span>University Website</span></a></li>
+                                <li><a href="index-5.html">Homepage 5<span>Medical Website</span></a></li>
+                                <li><a href="index-6.html">Homepage 6<span>Beauty Salon Website</span></a></li>
+                                <li><a href="index-7.html">Homepage 7<span>Another Corporate </span></a></li>
+                                <li><a href="index-8.html">Homepage 8<span>Layout Boxed Corporate</span></a></li>
+                                <li><a href="index-9.html">Homepage 9<span>Header Center Corporate</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Features</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop-categori.html">Shop categori</a></li>
+                                <li><a href="single-product.html">Single product</a></li>
+                                <li><a href="shopping-cart.html">Shopping cart</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Portfolio</a>
+                            <ul class="uk-nav-sub">
+                                <li class="uk-parent"><a href="">Showcase Grid </a>
+                                    <ul>
+                                        <li><a href="portfolio-column-2.html">Column 2</a></li>
+                                        <li><a href="portfolio-column-3.html">Column 3</a></li>
+                                        <li><a href="portfolio-column-4.html">Column 4</a></li>
+                                        <li><a href="portfolio-column-5.html">Column 5</a></li>
+                                        <li><a href="portfolio-column-6.html">Column 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="">Showcase Masonry</a>
+                                    <ul>
+                                        <li><a href="portfolio-masonry-column-2.html">Column 2</a></li>
+                                        <li><a href="#">Column 3</a></li>
+                                        <li><a href="#">Column 4</a></li>
+                                        <li><a href="#">Column 5</a></li>
+                                        <li><a href="#">Column 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="">Portfolio Grid</a>
+                                    <ul>
+                                        <li><a href="portfolio-grid-column-2.html">Column 2</a></li>
+                                        <li><a href="portfolio-grid-column-3.html">Column 3</a></li>
+                                        <li><a href="portfolio-grid-column-4.html">Column 4</a></li>
+                                        <li><a href="portfolio-grid-column-5.html">Column 5</a></li>
+                                        <li><a href="portfolio-grid-column-6.html">Column 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="">Portfolio Mosaic</a>
+                                    <ul>
+                                        <li><a href="#">Column 2</a></li>
+                                        <li><a href="#">Column 3</a></li>
+                                        <li><a href="#">Column 4</a></li>
+                                        <li><a href="#">Column 5</a></li>
+                                        <li><a href="#">Column 6</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="#">Various Example</a>
+                                    <ul>
+                                        <li><a href="showcase-with-single.html">Showcase With Single</a></li>
+                                        <li><a href="showcase-with-link.html">Showcase With Link </a></li>
+                                        <li><a href="showcase-with-no-link.html">Showcase With No Link</a></li>
+                                        <li><a href="showcase-with-slider.html">Showcase With Slider </a></li>
+                                        <li><a href="showcase-with-show-more.html">Showcase With Show More</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog Post</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="blog-column-2.html">Blog Column 2</a></li>
+                                <li><a href="blog-column-3.html">Blog Column 3</a></li>
+                                <li><a href="blog-column-4.html">Blog Column 4</a></li>
+                                <li><a href="blog-column-5.html">Blog Column 5</a></li>
+                                <li><a href="blog-column-6.html">Blog Column 6</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Shop</a>
+                            <ul class="uk-nav-sub">
+                                <li class="uk-parent"><a href="#">WOMEN CLOTH</a>
+                                    <ul>
+                                        <li><a href="#">CASUAL SHIRT </a></li>
+                                        <li><a href="#">RIKKE T-SHIRT </a></li>
+                                        <li><a href="#">MIA TOP</a></li>
+                                        <li><a href="#">MUSCLE TEE </a></li>
+                                        <li><a href="#">SEINE BLOUSE </a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="#">MEN CLOTH</a>
+                                    <ul>
+                                        <li><a href="#">CASUAL SHIRT</a></li>
+                                        <li><a href="#">T-SHIRT</a></li>
+                                        <li><a href="#">ZEANS</a></li>
+                                        <li><a href="#">TROUSERS/ PANTS </a></li>
+                                        <li><a href="#">SWEAMWEAR </a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="">WOMEN JEWELRYrid</a>
+                                    <ul>
+                                        <li><a href="#">NECKLACE </a></li>
+                                        <li><a href="#">CHUNKY SHORT STRIPED </a></li>
+                                        <li><a href="#">SAMHAR CUFF </a></li>
+                                        <li><a href="#">NAIL SET</a></li>
+                                        <li><a href="#">DROP EARRINGS</a></li>
+                                    </ul>
+                                </li>
+                                <li class="uk-parent"><a href="#">MEN ACCESSORIES</a>
+                                    <ul>
+                                        <li><a href="#">CASUAL SHOES</a></li>
+                                        <li><a href="#">BAGS </a></li>
+                                        <li><a href="#">WATCHES </a></li>
+                                        <li><a href="#">SUNGLASSES</a></li>
+                                        <li><a href="#">TIE </a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Pages</a>
+                            <ul class="uk-nav-sub">
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="about-us-2.html">About Us 2</a></li>
+                                <li><a href="our-office.html">Our Office</a></li>
+                                <li><a href="team.html">Meet The Team</a></li>
+                                <li><a href="team-2.html">Meet The Team 2</a></li>
+                                <li><a href="team-3.html">Meet The Team 3</a></li>
+                                <li><a href="team-member.html">Team Member</a></li>
+                                <li><a href="pricing.html">Plan and Pricing</a></li>
+                                <li><a href="service.html">Our Service Page</a></li>
+                                <li><a href="question-answers.html">Question & Answers</a></li>
+                                <li><a href="help-center.html">Help Center</a></li>
+                                <li><a href="testimonial.html">Client & Testimonial</a></li>
+                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="contact-us-2.html">Contact Us 2</a></li>
+                                <li><a href="frequently-asked-question.html">Frequently Asked Question</a></li>
+                                <li><a href="photo-gallery-2.html">Photo Gallery 2 Column</a></li>
+                                <li><a href="photo-gallery-3.html">Photo Gallery 3 Column</a></li>
+                                <li><a href="photo-gallery-4.html">Photo Gallery 4 Column</a></li>
+                                <li><a href="photo-gallery-5.html">Photo Gallery 5 Column</a></li>
+                                <li><a href="photo-gallery-6.html">Photo Gallery 6 Column</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- End sidr menu -->
+        <!-- Start particles js -->
+        <div id="particles-js">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-8">
+						<div class="top-title-k">
+							<h1>Our Service Page</h1>
+						</div>                  				
+					</div>
+					<div class="col-md-4">
+						<div class="again-back">
+							<a href="index.html" class="readon">Back</a>	
+						</div>
+					</div>
+                </div>
+            </div>			
+        </div>
+        <!-- End particles js -->
+        <!-- Start main menu -->
+        <div class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Homepage</a>
+                                    <div class="mega-menu">
+                                        <ul>
+                                            <li><a href="index-2.html">
+                                                Homepage 2
+                                                <div>Modern Corporate</div>
+                                            </a></li>
+                                            <li><a href="index-3.html">
+                                                Homepage 3
+                                                <div>Restaurant Website</div>
+                                            </a></li>
+                                            <li><a href="index-4.html">
+                                                Homepage 4
+                                                <div>University Website</div>
+                                            </a></li>
+                                            <li><a href="index-5.html">
+                                                Homepage 5
+                                                <div>Medical Website</div>
+                                            </a></li>
+                                            <li><a href="index-6.html">
+                                                Homepage 6
+                                                <div>Beauty Salon Website</div>
+                                            </a></li>
+                                            <li><a href="index-7.html">
+                                                Homepage 7
+                                                <div>Another Corporate</div>
+                                            </a></li>
+                                            <li><a href="index-8.html">
+                                                Homepage 8
+                                                <div>Layout Boxed Corporate</div>
+                                            </a></li>
+                                            <li><a href="index-9.html">
+                                                Homepage 9
+                                                <div>Header Center Corporate</div>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="">Features</a>
+                                    <div class="one-collam-menu">
+                                        <div class="mega-menu">
+                                            <ul>
+                                                <li><a href="shop.html">Shop</a></li>
+                                                <li><a href="shop-categori.html">Shop categori</a></li>
+                                                <li><a href="single-product.html">Single product</a></li>
+                                                <li><a href="shopping-cart.html">Shopping cart</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">Portfolio</a>
+                                    <div class="five-collum-menu">
+                                        <div class="menu-colum">
+                                            <h3><a href="#">Showcase Grid</a></h3>
+                                            <a href="portfolio-column-2.html">Column 2</a>
+                                            <a href="portfolio-column-3.html">Column 3</a>
+                                            <a href="portfolio-column-4.html">Column 4</a>
+                                            <a href="portfolio-column-5.html">Column 5</a>
+                                            <a href="portfolio-column-6.html">Column 6</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">Showcase Masonry</a></h3>
+                                            <a href="#">Column 2</a>
+                                            <a href="#">Column 3</a>
+                                            <a href="#">Column 4</a>
+                                            <a href="#">Column 5</a>
+                                            <a href="#">Column 6</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">Portfolio Grid</a></h3>
+                                            <a href="portfolio-grid-column-2.html">Column 2</a>
+                                            <a href="portfolio-grid-column-3.html">Column 3</a>
+                                            <a href="portfolio-grid-column-4.html">Column 4</a>
+                                            <a href="portfolio-grid-column-5.html">Column 5</a>
+                                            <a href="portfolio-grid-column-6.html">Column 6</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">Portfolio Mosaic</a></h3>
+                                            <a href="#">Column 2</a>
+                                            <a href="#">Column 3</a>
+                                            <a href="#">Column 4</a>
+                                            <a href="#">Column 5</a>
+                                            <a href="#">Column 6</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">Various Example</a></h3>
+                                            <a href="showcase-with-single.html">Showcase With Single</a>
+                                            <a href="showcase-with-link.html">Showcase With Link</a>
+                                            <a href="showcase-with-no-link.html">Showcase With No Link</a>
+                                            <a href="showcase-with-slider.html">Showcase With Slider</a>
+                                            <a href="showcase-with-show-more.html">Showcase With Show More</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Blog Post</a>
+                                    <div class="one-collam-menu">
+                                        <div class="mega-menu">
+                                            <ul>
+                                                <li><a href="blog-column-2.html">Blog Column 2</a></li>
+                                                <li><a href="blog-column-3.html">Blog Column 3</a></li>
+                                                <li><a href="blog-column-4.html">Blog Column 4</a></li>
+                                                <li><a href="blog-column-5.html">Blog Column 5</a></li>
+                                                <li><a href="blog-column-6.html">Blog Column 6</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Shop</a>
+                                    <div class="five-collum-menu shop-mega-menu">
+                                        <div class="menu-colum">
+                                            <h3><a href="#">WOMEN CLOTH <span>HOT</span></a></h3>
+                                            <a href="#">CASUAL SHIRT</a>
+                                            <a href="#">RIKKE T-SHIRT</a>
+                                            <a href="#">MIA TOP</a>
+                                            <a href="#">MUSCLE TEE</a>
+                                            <a href="#">SEINE BLOUSE</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">MEN CLOTH</a></h3>
+                                            <a href="#">CASUAL SHIRT <span class="lime">New</span></a>
+                                            <a href="#">T-SHIRT</a>
+                                            <a href="#">ZEANS</a>
+                                            <a href="#">TROUSERS/ PANTS</a>
+                                            <a href="#">SWEAMWEAR</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">WOMEN JEWELRY<span class="orange">populer</span></a></h3>
+                                            <a href="#">NECKLACE</a>
+                                            <a href="#">CHUNKY SHORT STRIPED</a>
+                                            <a href="#">SAMHAR CUFF</a>
+                                            <a href="#">NAIL SET</a>
+                                            <a href="#">DROP EARRINGS</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <h3><a href="#">MEN ACCESSORIES</a></h3>
+                                            <a href="#">CASUAL SHOES</a>
+                                            <a href="#">BAGS</a>
+                                            <a href="#">WATCHES</a>
+                                            <a href="#">SUNGLASSES <span class="lime">New</span></a>
+                                            <a href="#">TIE</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Pages</a>
+                                    <div class="five-collum-menu pages-mega-menu">
+                                        <div class="menu-colum">
+                                            <a href="about-us.html">About Us</a>
+                                            <a href="about-us-2.html">About Us 2</a>
+                                            <a href="our-office.html">Our Office</a>
+                                            <a href="team.html">Meet The Team</a>
+                                            <a href="team-2.html">Meet The Team 2</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <a href="team-3.html">Meet The Team 3</a>
+                                            <a href="team-member.html">Team Member</a>
+                                            <a href="pricing.html">Plan and Pricing</a>
+                                            <a href="service.html">Our Service Page</a>
+                                            <a href="question-answers.html">Question & Answers</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <a href="help-center.html">Help Center</a>
+                                            <a href="testimonial.html">Client & Testimonial</a>
+                                            <a href="contact-us.html">Contact Us</a>
+                                            <a href="contact-us-2.html">Contact Us 2</a>
+                                            <a href="frequently-asked-question.html">Frequently Asked Question</a>
+                                        </div>
+                                        <div class="menu-colum">
+                                            <a href="photo-gallery-2.html">Photo Gallery 2 Column</a>
+                                            <a href="photo-gallery-3.html">Photo Gallery 3 Column</a>
+                                            <a href="photo-gallery-4.html">Photo Gallery 4 Column</a>
+                                            <a href="photo-gallery-5.html">Photo Gallery 5 Column</a>
+                                            <a href="photo-gallery-6.html">Photo Gallery 6 Column</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End main menu -->
+        <!-- service-page-area start -->
+        <div class="service-page-area">
+            <div class="container">
+                <div class="row">
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-eyedropper"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>EDITOR </h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-desktop"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>MARKETING & PR  </h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-film"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>WEB DESIGN  </h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>MICROPHONE </h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-codepen"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>DEVELOPMENT </h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                    <!-- s-p-single start -->
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div class="s-p-single">
+                            <div class="s-p-icon">
+                                <i class="fa fa-camera"></i>
+                            </div>
+                            <div class="icon_description">
+                                <h3>PHOTOGRAPHY</h3>
+                                <div class="icon_description_text">
+                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly.</p>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div>
+                    <!-- s-p-single end -->
+                </div>
+            </div>
+        </div>
+        <!-- service-page-area end -->
+        <!-- service-dev-area start -->
+        <div class="service-dev-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="service-dev-img">
+                            <img src="img/service/camera.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="service-dev-text">
+                            <h2>DEVELOPMENT <strong>SERVICES</strong></h2>
+                            <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+                            <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought. </p>
+                            <p>It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table </p>
+                            <p>Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine anoa who sat lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
+                            <a class="readon border black" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service-dev-area end -->
+        <!-- service-point-area start -->
+        <div class="service-point-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="service-point-text">
+                            <h4>OUR SERVICE <strong>POINT</strong></h4>
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which  <br />I enjoy with my whole heart. I am alone, and feel the charm of existence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service-point-area end -->
+        <!-- service-accordion-area start -->
+        <div class="service-accordion-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="service-accordion">
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                  <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                      Simple Spoiler
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                  <div class="panel-body">
+                                    <div class="service-acc-img">
+                                        <img src="img/service/compass.jpg" alt="" />
+                                    </div>
+                                    <div class="service-acc-text">
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created.</p>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Simple Spoiler
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                  <div class="panel-body">
+                                    <div class="service-acc-img">
+                                        <img src="img/service/service02.jpg" alt="" />
+                                    </div>
+                                    <div class="service-acc-text">
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created.</p>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                  <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Simple Spoiler
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                  <div class="panel-body">
+                                    <div class="service-acc-img">
+                                        <img src="img/service/service01.jpg" alt="" />
+                                    </div>
+                                    <div class="service-acc-text">
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created.</p>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- service-accordion-area end -->  
+        <!-- Start breadcrumb area -->
+        <div class="breadcrumb-area">
+            <div class="container">
+                <div class="row">
+                    <div class="breadcrumb-kirion">
+                        <ul class="breadcrumb">
+                            <li class="bre-title active hidden-small">You are here: </li>
+                            <li><a class="pathway" href="index.html">Home</a></li>
+                            <li><a class="pathway" href="#">Pages</a></li>
+                            <li class="uk-active"><span>Our Service Page</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End breadcrumb area -->   
+        <!-- Start footer -->
+        <footer>
+            <div class="footer-top fpages">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="footer-logo footertop-menu">
+                                <h5>Customer Care</h5>
+                                <ul>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Shipping Charge</a></li>
+                                    <li><a href="#">Shipping Track</a></li>
+                                    <li><a href="#">Payment Method</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3 hidden-sm">
+                            <div class="footer-logo footertop-menu">
+                                <h5>Your Account</h5>
+                                <ul>
+                                    <li><a href="#">My Account</a></li>
+                                    <li><a href="#">Affiliate Dashboard</a></li>
+                                    <li><a href="#">Billing Address</a></li>
+                                    <li><a href="#">Cancel Order</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="footer-logo footertop-menu">
+                                <h5>Shop Information</h5>
+                                <ul>
+                                    <li><a href="#">About Company</a></li>
+                                    <li><a href="#">Become Member</a></li>
+                                    <li><a href="#">License Details</a></li>
+                                    <li><a href="#">Tax Information</a></li>
+                                    <li><a href="#">Job & Vacancies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <div class="email-newslatter about-us3">
+                                <a href="index.html"><img src="img/home9/logo_white.svg" alt=""></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                                <p>404, Mark Twain Tower, Saint MG Road, United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="copyright-text">
+                                <p>Built with HTML5 and CSS3 Copyright © 2015 <a href="http://bootexperts.com/">BootExperts</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6">
+                            <div class="footer-menu">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#">FACEBOOK</a></li>
+                                        <li><a href="#">GOOGLE PLUS</a></li>
+                                        <li><a href="#">TWITTER</a></li>
+                                        <li><a href="#">SERVICES</a></li>
+                                        <li><a href="#">LINKEDIN</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer -->
+        
+        <!-- JS -->
+
+ 		<!-- jquery-1.11.3.min js
+		============================================ -->         
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        
+ 		<!-- bootstrap js
+		============================================ -->         
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- jQuery REVOLUTION Slider  -->
+        <script  src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script  src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script  src="rs-plugin/js/rs.home.js"></script>
+
+   		<!-- owl.carousel.min js
+		============================================ -->       
+        <script src="js/owl.carousel.min.js"></script>
+        
+        <!-- jquery.sidr.min js
+        ============================================ -->       
+        <script src="js/jquery.sidr.min.js"></script>
+		
+        <!-- jqueryui js
+        ============================================ -->       
+        <script src="js/jquery.fancybox.js"></script>
+        
+        <!-- jflickrfeed.min js
+        ============================================ -->       
+        <script src="js/jflickrfeed.min.js"></script>
+
+        <!-- jquery.mixitup.min js
+        ============================================ -->       
+        <script src="js/jquery.mixitup.min.js"></script>
+
+        <!-- jquery scrollUp min js
+        ============================================ -->       
+        <script src="js/jquery.scrollUp.min.js"></script>
+
+		<!-- counterup min js
+        ============================================ -->
+		<script src="js/counterup.min.js"></script>
+
+        <!-- waypoints min js
+        ============================================ --> 
+        <script src="js/knob.js"></script>
+
+        <!-- waypoints min js
+        ============================================ --> 
+        <script src="js/appear.js"></script>
+
+		<!-- waypoints min js
+        ============================================ --> 
+		<script src="js/waypoints.min.js"></script>
+
+   		<!-- wow js
+		============================================ -->       
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <!-- wow js
+        ============================================ -->       
+        <script src="js/particles.js"></script>
+       
+   		<!-- plugins js
+		============================================ -->         
+        <script src="js/plugins.js"></script>
+        
+   		<!-- main js
+		============================================ -->           
+        <script src="js/main.js"></script>
+    </body>
+</html>
